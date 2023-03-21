@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C604AD4D5915BB8D32AA298E /* libPods-Good Crop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1887B1D666717CA3258C55C8 /* libPods-Good Crop.a */; };
+		F111232B1B63CD0000988267 /* GoodCropNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111232A1B63CD0000988267 /* GoodCropNavigationController.swift */; };
+		F111232D1B63CD3B00988267 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111232C1B63CD3B00988267 /* PublicVariables.swift */; };
+		F111232F1B63CDAE00988267 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111232E1B63CDAE00988267 /* Extensions.swift */; };
+		F11123331B63EF5500988267 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11123321B63EF5500988267 /* FrameView.swift */; };
+		F11123351B63EF6400988267 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11123341B63EF6400988267 /* BackgroundView.swift */; };
+		F11123371B63EF9000988267 /* FrameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11123361B63EF9000988267 /* FrameView.xib */; };
+		F11123391B63EFA200988267 /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11123381B63EFA200988267 /* BackgroundView.xib */; };
+		F111233C1B6591D900988267 /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111233B1B6591D900988267 /* CoolView.swift */; };
+		F11123401B65965700988267 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F111233F1B65965700988267 /* ColorSlider.swift */; };
+		F11123421B66368500988267 /* SwiftColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11123411B66368500988267 /* SwiftColorPickerViewController.swift */; };
+		F11123441B66376300988267 /* CoolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11123431B66376300988267 /* CoolButton.swift */; };
+		F12BF7761B7CDC0800261272 /* ShapedScrollContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BF7731B7CDC0800261272 /* ShapedScrollContainerView.swift */; };
+		F12BF7771B7CDC0800261272 /* ShapedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BF7741B7CDC0800261272 /* ShapedScrollView.swift */; };
+		F12CB2591B72C05700C42A63 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12CB2581B72C05700C42A63 /* iAd.framework */; };
+		F1374A221BA8340100C71826 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1374A211BA8340100C71826 /* GoogleMobileAds.framework */; };
+		F154AF121BA0848C003FF48C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF111BA0848C003FF48C /* AdSupport.framework */; };
+		F154AF141BA08497003FF48C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF131BA08497003FF48C /* AudioToolbox.framework */; };
+		F154AF161BA084A8003FF48C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF151BA084A8003FF48C /* AVFoundation.framework */; };
+		F154AF181BA084BC003FF48C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF171BA084BC003FF48C /* CoreGraphics.framework */; };
+		F154AF1A1BA084CD003FF48C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF191BA084CD003FF48C /* CoreMedia.framework */; };
+		F154AF1C1BA084DF003FF48C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF1B1BA084DF003FF48C /* CoreTelephony.framework */; };
+		F154AF1F1BA084F1003FF48C /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF1D1BA084F1003FF48C /* EventKit.framework */; };
+		F154AF201BA084F1003FF48C /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF1E1BA084F1003FF48C /* EventKitUI.framework */; };
+		F154AF221BA08501003FF48C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF211BA08501003FF48C /* MessageUI.framework */; };
+		F154AF241BA08511003FF48C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF231BA08511003FF48C /* StoreKit.framework */; };
+		F154AF261BA08524003FF48C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F154AF251BA08524003FF48C /* SystemConfiguration.framework */; };
+		F15EBDEC1B83AC7B0078123B /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15EBDEA1B83AC7B0078123B /* BackgroundCollectionViewCell.swift */; };
+		F15EBDED1B83AC7B0078123B /* BackgroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15EBDEB1B83AC7B0078123B /* BackgroundCollectionViewCell.xib */; };
+		F15EBDF31B8476FD0078123B /* BackgroundPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15EBDF21B8476FD0078123B /* BackgroundPattern.swift */; };
+		F1945ADC1B5D328E00E5B3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1945ADB1B5D328E00E5B3DD /* AppDelegate.swift */; };
+		F1945AE11B5D328E00E5B3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1945ADF1B5D328E00E5B3DD /* Main.storyboard */; };
+		F1945AE31B5D328E00E5B3DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1945AE21B5D328E00E5B3DD /* Images.xcassets */; };
+		F1945AE61B5D328E00E5B3DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1945AE41B5D328E00E5B3DD /* LaunchScreen.xib */; };
+		F1945AF21B5D328E00E5B3DD /* Good_CropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1945AF11B5D328E00E5B3DD /* Good_CropTests.swift */; };
+		F1DA3D581B7532120051EC6C /* CoolSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA3D571B7532120051EC6C /* CoolSlider.swift */; };
+		F1F8924A1B6E4AA900B6DBD0 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F892441B6E4AA900B6DBD0 /* AlbumsTableViewController.swift */; };
+		F1F8924B1B6E4AA900B6DBD0 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F892451B6E4AA900B6DBD0 /* AlbumTableViewCell.swift */; };
+		F1F8924C1B6E4AA900B6DBD0 /* ContainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F892461B6E4AA900B6DBD0 /* ContainersViewController.swift */; };
+		F1F8924D1B6E4AA900B6DBD0 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F892471B6E4AA900B6DBD0 /* TopViewController.swift */; };
+		F1F8924E1B6E4AA900B6DBD0 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F892481B6E4AA900B6DBD0 /* BottomViewController.swift */; };
+		F1F8924F1B6E4AA900B6DBD0 /* ContainersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F892491B6E4AA900B6DBD0 /* ContainersCollectionViewCell.swift */; };
+		F1F90EEE1B8E1AAE005DC13F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F90EED1B8E1868005DC13F /* ViewController.swift */; };
+		F1F90EEF1B8E1AC2005DC13F /* CollageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F90EEC1B8E034F005DC13F /* CollageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1945AEC1B5D328E00E5B3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1945ACE1B5D328E00E5B3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1945AD51B5D328E00E5B3DD;
+			remoteInfo = "Good Crop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1545FCA6977A95E79B63AEF0 /* Pods-Good Crop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Good Crop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Good Crop/Pods-Good Crop.release.xcconfig"; sourceTree = "<group>"; };
+		1887B1D666717CA3258C55C8 /* libPods-Good Crop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Good Crop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF73493A054AC14624B93E4 /* Pods-Good Crop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Good Crop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Good Crop/Pods-Good Crop.debug.xcconfig"; sourceTree = "<group>"; };
+		F111232A1B63CD0000988267 /* GoodCropNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodCropNavigationController.swift; sourceTree = "<group>"; };
+		F111232C1B63CD3B00988267 /* PublicVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicVariables.swift; sourceTree = "<group>"; };
+		F111232E1B63CDAE00988267 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F11123321B63EF5500988267 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		F11123341B63EF6400988267 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F11123361B63EF9000988267 /* FrameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrameView.xib; sourceTree = "<group>"; };
+		F11123381B63EFA200988267 /* BackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundView.xib; sourceTree = "<group>"; };
+		F111233A1B64C52D00988267 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F111233B1B6591D900988267 /* CoolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolView.swift; sourceTree = "<group>"; };
+		F111233F1B65965700988267 /* ColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		F11123411B66368500988267 /* SwiftColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColorPickerViewController.swift; sourceTree = "<group>"; };
+		F11123431B66376300988267 /* CoolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolButton.swift; sourceTree = "<group>"; };
+		F12BF7721B7CDC0800261272 /* CollageView-todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollageView-todo.swift"; sourceTree = "<group>"; };
+		F12BF7731B7CDC0800261272 /* ShapedScrollContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapedScrollContainerView.swift; sourceTree = "<group>"; };
+		F12BF7741B7CDC0800261272 /* ShapedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapedScrollView.swift; sourceTree = "<group>"; };
+		F12CB2581B72C05700C42A63 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F1374A211BA8340100C71826 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Developer/GoogleMobileAdsSdkiOS-7.4.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		F154AF0F1BA062A1003FF48C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.4.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		F154AF111BA0848C003FF48C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F154AF131BA08497003FF48C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F154AF151BA084A8003FF48C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F154AF171BA084BC003FF48C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F154AF191BA084CD003FF48C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F154AF1B1BA084DF003FF48C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F154AF1D1BA084F1003FF48C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F154AF1E1BA084F1003FF48C /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		F154AF211BA08501003FF48C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F154AF231BA08511003FF48C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F154AF251BA08524003FF48C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F154AF271BA1BE7D003FF48C /* Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		F15EBDEA1B83AC7B0078123B /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		F15EBDEB1B83AC7B0078123B /* BackgroundCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundCollectionViewCell.xib; sourceTree = "<group>"; };
+		F15EBDF01B83ED730078123B /* BackgroundView-backup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BackgroundView-backup.xib"; sourceTree = "<group>"; };
+		F15EBDF21B8476FD0078123B /* BackgroundPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundPattern.swift; sourceTree = "<group>"; };
+		F16BE8D51B808CCB007865AE /* FrameView-backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FrameView-backup.swift"; sourceTree = "<group>"; };
+		F16BE8D61B80D1CF007865AE /* BottomViewController-backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomViewController-backup.swift"; sourceTree = "<group>"; };
+		F1945AD61B5D328E00E5B3DD /* Good Crop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Crop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1945ADA1B5D328E00E5B3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1945ADB1B5D328E00E5B3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1945ADD1B5D328E00E5B3DD /* ViewController-todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController-todo.swift"; sourceTree = "<group>"; };
+		F1945AE01B5D328E00E5B3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1945AE21B5D328E00E5B3DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1945AE51B5D328E00E5B3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1945AEB1B5D328E00E5B3DD /* Good CropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Good CropTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1945AF01B5D328E00E5B3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1945AF11B5D328E00E5B3DD /* Good_CropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Good_CropTests.swift; sourceTree = "<group>"; };
+		F1DA3D571B7532120051EC6C /* CoolSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolSlider.swift; sourceTree = "<group>"; };
+		F1F892441B6E4AA900B6DBD0 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		F1F892451B6E4AA900B6DBD0 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		F1F892461B6E4AA900B6DBD0 /* ContainersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainersViewController.swift; sourceTree = "<group>"; };
+		F1F892471B6E4AA900B6DBD0 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		F1F892481B6E4AA900B6DBD0 /* BottomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		F1F892491B6E4AA900B6DBD0 /* ContainersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainersCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1F90EEC1B8E034F005DC13F /* CollageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageView.swift; sourceTree = "<group>"; };
+		F1F90EED1B8E1868005DC13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1F90EF01B8E1B22005DC13F /* ShapedScrollContainerView-todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapedScrollContainerView-todo.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1945AD31B5D328E00E5B3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F154AF261BA08524003FF48C /* SystemConfiguration.framework in Frameworks */,
+				F154AF241BA08511003FF48C /* StoreKit.framework in Frameworks */,
+				F154AF221BA08501003FF48C /* MessageUI.framework in Frameworks */,
+				F154AF1F1BA084F1003FF48C /* EventKit.framework in Frameworks */,
+				F154AF201BA084F1003FF48C /* EventKitUI.framework in Frameworks */,
+				F154AF1C1BA084DF003FF48C /* CoreTelephony.framework in Frameworks */,
+				F154AF1A1BA084CD003FF48C /* CoreMedia.framework in Frameworks */,
+				F154AF181BA084BC003FF48C /* CoreGraphics.framework in Frameworks */,
+				F154AF161BA084A8003FF48C /* AVFoundation.framework in Frameworks */,
+				F154AF141BA08497003FF48C /* AudioToolbox.framework in Frameworks */,
+				F154AF121BA0848C003FF48C /* AdSupport.framework in Frameworks */,
+				F12CB2591B72C05700C42A63 /* iAd.framework in Frameworks */,
+				F1374A221BA8340100C71826 /* GoogleMobileAds.framework in Frameworks */,
+				C604AD4D5915BB8D32AA298E /* libPods-Good Crop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1945AE81B5D328E00E5B3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D840E618471F79772FA44D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1374A211BA8340100C71826 /* GoogleMobileAds.framework */,
+				F154AF251BA08524003FF48C /* SystemConfiguration.framework */,
+				F154AF231BA08511003FF48C /* StoreKit.framework */,
+				F154AF211BA08501003FF48C /* MessageUI.framework */,
+				F154AF1D1BA084F1003FF48C /* EventKit.framework */,
+				F154AF1E1BA084F1003FF48C /* EventKitUI.framework */,
+				F154AF1B1BA084DF003FF48C /* CoreTelephony.framework */,
+				F154AF191BA084CD003FF48C /* CoreMedia.framework */,
+				F154AF171BA084BC003FF48C /* CoreGraphics.framework */,
+				F154AF151BA084A8003FF48C /* AVFoundation.framework */,
+				F154AF131BA08497003FF48C /* AudioToolbox.framework */,
+				F154AF111BA0848C003FF48C /* AdSupport.framework */,
+				F154AF0F1BA062A1003FF48C /* GoogleMobileAds.framework */,
+				F12CB2581B72C05700C42A63 /* iAd.framework */,
+				1887B1D666717CA3258C55C8 /* libPods-Good Crop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E267EA4CA345472906EBC706 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFF73493A054AC14624B93E4 /* Pods-Good Crop.debug.xcconfig */,
+				1545FCA6977A95E79B63AEF0 /* Pods-Good Crop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F12BF7781B7CDC2000261272 /* CollageView */ = {
+			isa = PBXGroup;
+			children = (
+				F154AF271BA1BE7D003FF48C /* Anchor.swift */,
+				F12BF7721B7CDC0800261272 /* CollageView-todo.swift */,
+				F1F90EEC1B8E034F005DC13F /* CollageView.swift */,
+				F12BF7731B7CDC0800261272 /* ShapedScrollContainerView.swift */,
+				F1F90EF01B8E1B22005DC13F /* ShapedScrollContainerView-todo.swift */,
+				F12BF7741B7CDC0800261272 /* ShapedScrollView.swift */,
+			);
+			name = CollageView;
+			sourceTree = "<group>";
+		};
+		F15EBDE81B83A5B80078123B /* Background View */ = {
+			isa = PBXGroup;
+			children = (
+				F11123341B63EF6400988267 /* BackgroundView.swift */,
+				F15EBDF21B8476FD0078123B /* BackgroundPattern.swift */,
+				F11123381B63EFA200988267 /* BackgroundView.xib */,
+				F15EBDF01B83ED730078123B /* BackgroundView-backup.xib */,
+				F15EBDEA1B83AC7B0078123B /* BackgroundCollectionViewCell.swift */,
+				F15EBDEB1B83AC7B0078123B /* BackgroundCollectionViewCell.xib */,
+				F111233F1B65965700988267 /* ColorSlider.swift */,
+				F11123411B66368500988267 /* SwiftColorPickerViewController.swift */,
+			);
+			name = "Background View";
+			sourceTree = "<group>";
+		};
+		F15EBDE91B83A6790078123B /* Frame View */ = {
+			isa = PBXGroup;
+			children = (
+				F11123321B63EF5500988267 /* FrameView.swift */,
+				F16BE8D51B808CCB007865AE /* FrameView-backup.swift */,
+				F11123361B63EF9000988267 /* FrameView.xib */,
+			);
+			name = "Frame View";
+			sourceTree = "<group>";
+		};
+		F1945ACD1B5D328E00E5B3DD = {
+			isa = PBXGroup;
+			children = (
+				F1945AD81B5D328E00E5B3DD /* Good Crop */,
+				F1945AEE1B5D328E00E5B3DD /* Good CropTests */,
+				F1945AD71B5D328E00E5B3DD /* Products */,
+				E267EA4CA345472906EBC706 /* Pods */,
+				C3D840E618471F79772FA44D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1945AD71B5D328E00E5B3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1945AD61B5D328E00E5B3DD /* Good Crop.app */,
+				F1945AEB1B5D328E00E5B3DD /* Good CropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1945AD81B5D328E00E5B3DD /* Good Crop */ = {
+			isa = PBXGroup;
+			children = (
+				F1945ADF1B5D328E00E5B3DD /* Main.storyboard */,
+				F111232C1B63CD3B00988267 /* PublicVariables.swift */,
+				F111232A1B63CD0000988267 /* GoodCropNavigationController.swift */,
+				F1945ADD1B5D328E00E5B3DD /* ViewController-todo.swift */,
+				F1F90EED1B8E1868005DC13F /* ViewController.swift */,
+				F15EBDE91B83A6790078123B /* Frame View */,
+				F15EBDE81B83A5B80078123B /* Background View */,
+				F111233B1B6591D900988267 /* CoolView.swift */,
+				F11123431B66376300988267 /* CoolButton.swift */,
+				F1DA3D571B7532120051EC6C /* CoolSlider.swift */,
+				F12BF7781B7CDC2000261272 /* CollageView */,
+				F1F892501B6E4AB100B6DBD0 /* Photo Gallery */,
+				F1945AD91B5D328E00E5B3DD /* Supporting Files */,
+			);
+			path = "Good Crop";
+			sourceTree = "<group>";
+		};
+		F1945AD91B5D328E00E5B3DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1945AE21B5D328E00E5B3DD /* Images.xcassets */,
+				F111232E1B63CDAE00988267 /* Extensions.swift */,
+				F111233A1B64C52D00988267 /* Bridging-Header.h */,
+				F1945ADB1B5D328E00E5B3DD /* AppDelegate.swift */,
+				F1945AE41B5D328E00E5B3DD /* LaunchScreen.xib */,
+				F1945ADA1B5D328E00E5B3DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1945AEE1B5D328E00E5B3DD /* Good CropTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1945AF11B5D328E00E5B3DD /* Good_CropTests.swift */,
+				F1945AEF1B5D328E00E5B3DD /* Supporting Files */,
+			);
+			path = "Good CropTests";
+			sourceTree = "<group>";
+		};
+		F1945AEF1B5D328E00E5B3DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1945AF01B5D328E00E5B3DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1F892501B6E4AB100B6DBD0 /* Photo Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				F1F892441B6E4AA900B6DBD0 /* AlbumsTableViewController.swift */,
+				F1F892451B6E4AA900B6DBD0 /* AlbumTableViewCell.swift */,
+				F1F892461B6E4AA900B6DBD0 /* ContainersViewController.swift */,
+				F1F892471B6E4AA900B6DBD0 /* TopViewController.swift */,
+				F1F892481B6E4AA900B6DBD0 /* BottomViewController.swift */,
+				F16BE8D61B80D1CF007865AE /* BottomViewController-backup.swift */,
+				F1F892491B6E4AA900B6DBD0 /* ContainersCollectionViewCell.swift */,
+			);
+			name = "Photo Gallery";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1945AD51B5D328E00E5B3DD /* Good Crop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1945AF51B5D328E00E5B3DD /* Build configuration list for PBXNativeTarget "Good Crop" */;
+			buildPhases = (
+				69E0DE6F5EE6A4DC23F94639 /* Check Pods Manifest.lock */,
+				F1945AD21B5D328E00E5B3DD /* Sources */,
+				F1945AD31B5D328E00E5B3DD /* Frameworks */,
+				F1945AD41B5D328E00E5B3DD /* Resources */,
+				8AA2D027679D0E4932AEE76A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Good Crop";
+			productName = "Good Crop";
+			productReference = F1945AD61B5D328E00E5B3DD /* Good Crop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1945AEA1B5D328E00E5B3DD /* Good CropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1945AF81B5D328E00E5B3DD /* Build configuration list for PBXNativeTarget "Good CropTests" */;
+			buildPhases = (
+				F1945AE71B5D328E00E5B3DD /* Sources */,
+				F1945AE81B5D328E00E5B3DD /* Frameworks */,
+				F1945AE91B5D328E00E5B3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1945AED1B5D328E00E5B3DD /* PBXTargetDependency */,
+			);
+			name = "Good CropTests";
+			productName = "Good CropTests";
+			productReference = F1945AEB1B5D328E00E5B3DD /* Good CropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1945ACE1B5D328E00E5B3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Haluk Isik";
+				TargetAttributes = {
+					F1945AD51B5D328E00E5B3DD = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = FESAZ792S8;
+					};
+					F1945AEA1B5D328E00E5B3DD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F1945AD51B5D328E00E5B3DD;
+					};
+				};
+			};
+			buildConfigurationList = F1945AD11B5D328E00E5B3DD /* Build configuration list for PBXProject "Good Crop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1945ACD1B5D328E00E5B3DD;
+			productRefGroup = F1945AD71B5D328E00E5B3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1945AD51B5D328E00E5B3DD /* Good Crop */,
+				F1945AEA1B5D328E00E5B3DD /* Good CropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1945AD41B5D328E00E5B3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11123391B63EFA200988267 /* BackgroundView.xib in Resources */,
+				F11123371B63EF9000988267 /* FrameView.xib in Resources */,
+				F1945AE11B5D328E00E5B3DD /* Main.storyboard in Resources */,
+				F1945AE61B5D328E00E5B3DD /* LaunchScreen.xib in Resources */,
+				F15EBDED1B83AC7B0078123B /* BackgroundCollectionViewCell.xib in Resources */,
+				F1945AE31B5D328E00E5B3DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1945AE91B5D328E00E5B3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69E0DE6F5EE6A4DC23F94639 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA2D027679D0E4932AEE76A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Good Crop/Pods-Good Crop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1945AD21B5D328E00E5B3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11123331B63EF5500988267 /* FrameView.swift in Sources */,
+				F1F8924A1B6E4AA900B6DBD0 /* AlbumsTableViewController.swift in Sources */,
+				F11123401B65965700988267 /* ColorSlider.swift in Sources */,
+				F11123421B66368500988267 /* SwiftColorPickerViewController.swift in Sources */,
+				F1F8924C1B6E4AA900B6DBD0 /* ContainersViewController.swift in Sources */,
+				F111233C1B6591D900988267 /* CoolView.swift in Sources */,
+				F111232F1B63CDAE00988267 /* Extensions.swift in Sources */,
+				F1F90EEE1B8E1AAE005DC13F /* ViewController.swift in Sources */,
+				F15EBDF31B8476FD0078123B /* BackgroundPattern.swift in Sources */,
+				F15EBDEC1B83AC7B0078123B /* BackgroundCollectionViewCell.swift in Sources */,
+				F111232D1B63CD3B00988267 /* PublicVariables.swift in Sources */,
+				F11123351B63EF6400988267 /* BackgroundView.swift in Sources */,
+				F1DA3D581B7532120051EC6C /* CoolSlider.swift in Sources */,
+				F1F8924F1B6E4AA900B6DBD0 /* ContainersCollectionViewCell.swift in Sources */,
+				F1F8924E1B6E4AA900B6DBD0 /* BottomViewController.swift in Sources */,
+				F12BF7761B7CDC0800261272 /* ShapedScrollContainerView.swift in Sources */,
+				F12BF7771B7CDC0800261272 /* ShapedScrollView.swift in Sources */,
+				F1F8924D1B6E4AA900B6DBD0 /* TopViewController.swift in Sources */,
+				F11123441B66376300988267 /* CoolButton.swift in Sources */,
+				F1F8924B1B6E4AA900B6DBD0 /* AlbumTableViewCell.swift in Sources */,
+				F111232B1B63CD0000988267 /* GoodCropNavigationController.swift in Sources */,
+				F1F90EEF1B8E1AC2005DC13F /* CollageView.swift in Sources */,
+				F1945ADC1B5D328E00E5B3DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1945AE71B5D328E00E5B3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1945AF21B5D328E00E5B3DD /* Good_CropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1945AED1B5D328E00E5B3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1945AD51B5D328E00E5B3DD /* Good Crop */;
+			targetProxy = F1945AEC1B5D328E00E5B3DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1945ADF1B5D328E00E5B3DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1945AE01B5D328E00E5B3DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1945AE41B5D328E00E5B3DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1945AE51B5D328E00E5B3DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1945AF31B5D328E00E5B3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1945AF41B5D328E00E5B3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1945AF61B5D328E00E5B3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF73493A054AC14624B93E4 /* Pods-Good Crop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/aurelius/Documents/Developer/GoogleMobileAdsSdkiOS-7.4.1",
+				);
+				INFOPLIST_FILE = "Good Crop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haluk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1945AF71B5D328E00E5B3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1545FCA6977A95E79B63AEF0 /* Pods-Good Crop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/aurelius/Documents/Developer/GoogleMobileAdsSdkiOS-7.4.1",
+				);
+				INFOPLIST_FILE = "Good Crop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haluk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1945AF91B5D328E00E5B3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Good CropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haluk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Good Crop.app/Good Crop";
+			};
+			name = Debug;
+		};
+		F1945AFA1B5D328E00E5B3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Good CropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haluk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Good Crop.app/Good Crop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1945AD11B5D328E00E5B3DD /* Build configuration list for PBXProject "Good Crop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1945AF31B5D328E00E5B3DD /* Debug */,
+				F1945AF41B5D328E00E5B3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1945AF51B5D328E00E5B3DD /* Build configuration list for PBXNativeTarget "Good Crop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1945AF61B5D328E00E5B3DD /* Debug */,
+				F1945AF71B5D328E00E5B3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1945AF81B5D328E00E5B3DD /* Build configuration list for PBXNativeTarget "Good CropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1945AF91B5D328E00E5B3DD /* Debug */,
+				F1945AFA1B5D328E00E5B3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1945ACE1B5D328E00E5B3DD /* Project object */;
+}

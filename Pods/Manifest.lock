@@ -1,0 +1,10 @@
+PODS:
+  - JMMarkSlider (1.0)
+
+DEPENDENCIES:
+  - JMMarkSlider (~> 1.0)
+
+SPEC CHECKSUMS:
+  JMMarkSlider: ad3868af6a265df3f6e2e82eb56da6936b15e04c
+
+COCOAPODS: 0.38.2

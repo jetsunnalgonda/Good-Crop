@@ -1,0 +1,6 @@
+#include "JMMarkSlider.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/JMMarkSlider" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JMMarkSlider"
+OTHER_LDFLAGS = ${JMMARKSLIDER_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

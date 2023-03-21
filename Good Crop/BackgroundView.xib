@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F19a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BackgroundView" customModule="Good_Crop" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BackgroundView" customModule="Good_Crop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPX-aU-7gg" customClass="ColorSlider" customModule="Good_Crop" customModuleProvider="target">
+                    <rect key="frame" x="80" y="20" width="500" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetX">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6I1-gq-pe1" customClass="CoolButton" customModule="Good_Crop" customModuleProvider="target">
+                    <rect key="frame" x="20" y="20" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="RFH-be-QY0"/>
+                        <constraint firstAttribute="height" constant="40" id="bUp-0c-iov"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="showColorPicker:" destination="iN0-l3-epB" eventType="touchUpInside" id="wLm-my-Fpm"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="R2u-nb-fVd">
+                    <rect key="frame" x="20" y="68" width="560" height="124"/>
+                    <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="E2c-8b-fqh">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="8" minY="6" maxX="8" maxY="6"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="E2c-8b-fqh" id="A9D-Om-UKi"/>
+                        <outlet property="delegate" destination="E2c-8b-fqh" id="3Yr-WG-Gag"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="dPX-aU-7gg" firstAttribute="top" secondItem="6I1-gq-pe1" secondAttribute="top" id="5vY-DJ-341"/>
+                <constraint firstItem="R2u-nb-fVd" firstAttribute="leading" secondItem="6I1-gq-pe1" secondAttribute="leading" id="8AR-P1-HQy"/>
+                <constraint firstItem="R2u-nb-fVd" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="CQI-Ja-xdX"/>
+                <constraint firstItem="6I1-gq-pe1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="CeD-fR-90A"/>
+                <constraint firstAttribute="trailing" secondItem="dPX-aU-7gg" secondAttribute="trailing" constant="20" id="IaN-fo-Izt"/>
+                <constraint firstItem="6I1-gq-pe1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Ms3-yJ-Eh7"/>
+                <constraint firstItem="R2u-nb-fVd" firstAttribute="top" secondItem="6I1-gq-pe1" secondAttribute="bottom" constant="8" symbolic="YES" id="PGN-sU-z0c"/>
+                <constraint firstItem="dPX-aU-7gg" firstAttribute="leading" secondItem="6I1-gq-pe1" secondAttribute="trailing" constant="20" id="SLE-Sj-ktZ"/>
+                <constraint firstItem="R2u-nb-fVd" firstAttribute="trailing" secondItem="dPX-aU-7gg" secondAttribute="trailing" id="atX-7D-kp8"/>
+                <constraint firstItem="6I1-gq-pe1" firstAttribute="centerY" secondItem="dPX-aU-7gg" secondAttribute="centerY" id="dLR-HC-WjF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="colorSlider" destination="dPX-aU-7gg" id="XLU-fI-r6X"/>
+                <outlet property="patternView" destination="R2u-nb-fVd" id="iXd-aL-VQP"/>
+                <outlet property="selectedColorButton" destination="6I1-gq-pe1" id="BUB-Lz-sy1"/>
+            </connections>
+        </view>
+    </objects>
+</document>
